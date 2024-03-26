@@ -3,6 +3,7 @@ package org.example;
 import org.example.pattern.Employee;
 import org.example.pattern.abstract_design_pattern.EmployeeFactory;
 import org.example.pattern.abstract_design_pattern.abstract_employee.employee.AbstractEmployeeForJava;
+import org.example.pattern.builder.User;
 import org.example.pattern.singleton.Samosa;
 import org.example.pattern.factory.FactoryPattern;
 
@@ -28,6 +29,9 @@ public class Main {
         employee3.name();
         int salary3= employee3.salary();
         System.out.println("My salary is :"+salary3);
+
+        User user=new User.UserBuilder().setEmail("mukeshsilwal5@gmail.com").setName("Mukesh silwal").setId(22).builder();
+        System.out.println("User info :"+user);
 
 
     }
