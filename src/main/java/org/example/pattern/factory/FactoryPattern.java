@@ -1,6 +1,5 @@
 package org.example.pattern.factory;
 
-import org.example.pattern.Employee;
 import org.example.pattern.factory.employee.DotNetDeveloper;
 import org.example.pattern.factory.employee.JavaDeveloper;
 

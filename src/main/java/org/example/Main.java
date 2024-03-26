@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.pattern.Employee;
+import org.example.pattern.factory.Employee;
 import org.example.pattern.abstract_design_pattern.EmployeeFactory;
 import org.example.pattern.abstract_design_pattern.abstract_employee.employee.AbstractEmployeeForJava;
 import org.example.pattern.builder.User;

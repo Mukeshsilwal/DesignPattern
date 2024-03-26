@@ -1,4 +1,4 @@
-package org.example.pattern;
+package org.example.pattern.factory;
 
 public interface Employee {
     int salary();
